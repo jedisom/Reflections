@@ -1,0 +1,44 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It helped to highlight the differences so I didn't have to look at the whole file.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Often I'll create a bug and save it over the old version and then it takes a long
+	time for me to figure out where the bug is because I can't compare the new to the 
+	old version
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    I think it is more useful to have logical chunks of saved files rather than
+	having the file saved automatically.  It would make it harder to understand
+	which files to compare if they were saved automatically.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Allowing for mutliple file saves in a version control makes more sense for 
+	a programming environmnent because there are interrelationships between files
+	for the program to work.  Google docs generally doesn't require this because 
+	a document can be considered independent.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    You can scroll through the log of file changes to see where a change occured,
+	then you can use git diff to tell you the differences in the files when the 
+	change occured.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    It helps you know that you can always get back to the working version of the 
+    program even if you break it later as long as you commit the working version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to try using git for version control of my python and R code when doing
+	data analysis projects.
