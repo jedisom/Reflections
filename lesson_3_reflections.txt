@@ -7,3 +7,14 @@ Why might you want to always pull changes manually rather than having Git automa
 stay up-to-date with your remote repository?
 	I'm not sure.  One thought is that you might have different versions/branches on 
 	GitHub that you don't want to work with on your local computer.
+	
+Describe the differences between forks, clones, and branches. When would you use one 
+instead of another?
+	branches are different revision paths repositories that may have different programming
+	or content for experimentation, etc.  Fork are like branches, but are done on GitHub 
+	and allow you to copy someone elses repository and build off of it without affecting 
+	their repository.  Cloning is the process of copying what is in a repository into 
+	another repository.  Cloning can be done from GitHub to your computer, or within your
+	local computer.
+
+
