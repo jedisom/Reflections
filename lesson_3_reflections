@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  You would want to use a remote repository if you want to share your work with other 
+  people.  It would also be a great way to work if you are creating code on several
+  different devices; the information could be shared and transferred via Git Hub.
