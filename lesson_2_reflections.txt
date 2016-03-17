@@ -11,14 +11,35 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+	you can use the git diff --stage command to see what changes are included
+	in the commit before commiting the change.  That way you can make sure all
+	of the changes included are logically connected.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	it would be great when you're trying out something bold and different with 
+	your code.  This helps to be able to try things without breaking the code
+	that is already working.  Plus, you can keep a working version to show people
+	while you're improving.
 
 How do the diagrams help you visualize the branch structure?
+	They can help us see which commits have a child-parent relationship to each
+	other and which commits may/may not have a branch name.  They can also help us 
+	visualize the different branches and what they're for.  This appears to be
+	more helpful when we start talking about merging.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+	The results is that the code that was added by either branch gets added, but 
+	subtracted code gets removed.  It uses the commit where the branch separated
+	as a reference to make these determinations.  The reason we represent it in 
+	the diagram the way we do is because it essenctially combines the code from
+	both branches.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+	Git's automatic merge will save a LOT of time if the changes the 2 commits 
+	have are in different sections of the program.  If they are in the same section
+	of code, it probably takes about the same amount of time because it at least
+	puts both sections of code side by side for you.  Doing a merge manually is
+	worse any way I can see it.
