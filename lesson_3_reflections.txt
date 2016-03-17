@@ -17,4 +17,10 @@ instead of another?
 	another repository.  Cloning can be done from GitHub to your computer, or within your
 	local computer.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	Having the last known state of the remote stored locally allows you to work off of the
+	most recent changes on your computer without being connected to the internet.  It also
+	is a check to make sure you haven't missed any changes potentially put into the repository
+	by any of your other collaborators.
+
 
