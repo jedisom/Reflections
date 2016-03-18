@@ -31,5 +31,12 @@ be harder?
 	method would likely take some getting used to if the people working on the project were
 	not familiar with git and github.  It also takes a little extra time to add, commit, push, 
 	etc., but it would save time in the long run by avoiding mistakes and overwriting files...
+	
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+	You want to make changes in a different branch rather than directly in master if you are
+	unsure if the change will work out (bugs, acceptance from the group, etc.)  Working directly
+	on master is definitely quicker and easier to do.  Creating a branch keeps options open and
+	maintains a clean working version of master while trying to develop new features.
 
 
